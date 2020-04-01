@@ -25,7 +25,7 @@ class Rating extends Component {
   render() {
     return (
       <div>
-        
+        <p>{this._meanings[value]}</p>
       </div>
     )
   }
